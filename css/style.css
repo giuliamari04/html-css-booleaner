@@ -4,18 +4,50 @@
     box-sizing: border-box;  
 }
 
-
+header{
+    background-color:rgb(78, 160, 255);
+    background-image: url(../img/pattern.png);
+    height: 110px;
+    background-size: 30%;
+    background-position: center top;  
+}
+main, footer{
+    margin-left: 10%;
+    margin-right: 10%;
+}
 #logo{
     width:200px;
     height:50px;
     margin-left: 10%;
    
 }
-header{
-    background-color:rgb(44, 123, 250);
-    background-image: url(../img/pattern.png);
-    height: 110px;
-    background-size: 30%;
-    background-position: center top;  
-  
+.testo-blu{
+    color: rgb(85, 189, 234);
 }
+
+.testo-grigio{
+    color:rgb(153, 153, 153) ;
+}
+
+.highlight {
+    background-color: yellow;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+  }
+
+th{
+    color: aliceblue;
+    background-color: rgb(32, 169, 229);
+    width: 100px;
+}
+td {
+    text-align: left;
+    padding: 10px;
+  }
+
+tr:nth-child(even) {
+    background-color:rgb(177, 229, 242);
+  }
