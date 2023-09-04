@@ -24,9 +24,9 @@ main, footer{
 #logo{
     width:200px;
     height:50px;
-    margin-left: 10%;
-    align-items: flex-end;
-    vertical-align: bottom;
+    margin-left: 20%;
+    padding-top: 50px;
+   
    
 }
 .testo-blu{
@@ -75,5 +75,8 @@ tr:nth-child(even) {
     height: 150px;
     background-position: center;
     background-size: cover;
+}
 
+.bordo-testo{
+    padding:10px;
 }
