@@ -17,17 +17,18 @@ header{
 .image{
     margin-right: 2px;
 }
+/*
 main, footer{
     margin-left: 20%;
     margin-right: 20%;
-}
+}*/
 #logo{
     width:200px;
     height:50px;
+    /*
     margin-left: 20%;
     padding-top: 50px;
-   
-   
+   */
 }
 .testo-blu{
     color: rgb(85, 189, 234);
